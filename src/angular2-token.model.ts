@@ -1,9 +1,11 @@
 // Function Data
 
 export interface SignInData {
-    email:                  string;
-    password:               string;
-    userType?:              string;
+    username: string;
+    password: string;
+    userType?: string;
+    grant_type: string;
+    client_id: string;
 }
 
 export interface RegisterData {
