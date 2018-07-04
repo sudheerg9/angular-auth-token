@@ -1,9 +1,9 @@
 {
-  "name": "angular2-token",
+  "name": "angular2-auth",
   "version": "0.2.0",
   "description": "Angular service for token based authentication",
-  "main": "./angular2-token.js",
-  "typings": "./angular2-token.d.ts",
+  "main": "./angular2-auth.js",
+  "typings": "./angular2-auth.d.ts",
   "scripts": {
     "test": "karma start",
     "build": "rimraf dist && ng-packagr -p ng-package.json"
@@ -69,10 +69,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neroniaky/angular2-token.git"
+    "url": "git+https://github.com/sudheerg9/angular2-auth.git"
   },
   "bugs": {
-    "url": "https://github.com/neroniaky/angular2-token/issues"
+    "url": "https://github.com/sudheerg9/angular2-auth/issues"
   },
-  "homepage": "https://github.com/neroniaky/angular2-token#readme"
+  "homepage": "https://github.com/sudheerg9/angular2-auth#readme"
 }
